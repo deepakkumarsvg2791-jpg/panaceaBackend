@@ -2,6 +2,7 @@ services:
   - type: web
     name: panacea-backend
     env: node
+    rootDir: .
     buildCommand: npm install
     startCommand: npm start
     envVars:
